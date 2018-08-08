@@ -29,5 +29,5 @@ class App < Sinatra::Base
     op = hash.select{|key, value| key == params[:operation]}.values.first
     "#{params[:number1].to_i} #{op} #{params[:number2].to_i}"
     end
-  end
+
 end
