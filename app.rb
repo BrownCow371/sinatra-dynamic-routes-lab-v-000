@@ -20,7 +20,7 @@ class App < Sinatra::Base
     phrase = "#{params[:phrase]}"
     new_phrase = ""
     number.times do
-      new_phrase + phrase
+      new_phrase = new_phrase + phrase
     end
     new_phrase
   end
