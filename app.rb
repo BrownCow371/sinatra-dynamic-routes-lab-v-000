@@ -17,7 +17,7 @@ class App < Sinatra::Base
     # end
     phrase = "#{params[:phrase]}, #{params[:number].to_i}"
     2.times do
-     phrase
+     puts phrase
   end
   end
 end
