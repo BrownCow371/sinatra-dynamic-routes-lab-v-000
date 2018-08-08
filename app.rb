@@ -16,6 +16,6 @@ class App < Sinatra::Base
     #   "#{params[:phrase]}"
     # end
 
-    "#{params[:phrase], params[:number].to_i }"
+    "#{params[:phrase]}, #{params[:number].to_i}"
   end
 end
